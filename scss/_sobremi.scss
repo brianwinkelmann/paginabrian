@@ -1,0 +1,76 @@
+/* SOBRE MI */
+
+.brianwinkelmann-sobremi {
+    top: 49px;
+    left: 6%;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    border-style: solid;
+    width: fit-content;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+  
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+  
+  .menunavegacion {
+    width: 35%;
+    position: relative;
+    left: 55%;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+  
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  a {
+    &:hover {
+      color: red;
+    }
+  
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .fab:hover {
+    cursor: pointer;
+    color: red;
+  }
+  
+  .imagenfondo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img-sobremi {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fondosobremi {
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    position: absolute;
+    margin-left: 60%;
+    top: 50%;
+    width: 30%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 10px;
+  }
+  
+  /* FIN SOBRE MI */

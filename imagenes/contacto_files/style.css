@@ -1,0 +1,297 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* INDEX */
+
+div.inicio-index{
+    position: absolute;
+    width: 500px;
+    z-index: 10;
+    left: 30%;
+    margin-top: 10%;
+
+}
+
+div.inicio{
+    display: flex;
+    justify-content: center;
+    margin left: auto;
+    margin right: auto;
+}
+
+    
+.ingresar-index{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    z-index: 5;
+    font-size: 50px;
+}
+
+.brianwinkelmann-index{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    z-index: 5;
+    font-size: 50px;
+}
+
+.carousel{
+    z-index: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1:hover{
+    color: red;
+}
+
+/* FIN INDEX */
+
+
+
+/* PORTAFOLIO */
+
+.logo-container{
+    width: 100%;
+    height: 78px;
+}
+.brianwinkelmann{
+    top: 49px;
+    left: 6%;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    border-style: solid;
+    width:fit-content;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.brianwinkelmann:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 0.7s;
+}
+
+
+
+.menunavegacion{
+    width: 35%;
+    position: relative;
+    left: 55%;
+    font-family: 'Raleway', sans-serif;
+    display:flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.menunavegacion:hover{
+cursor: pointer;
+
+}
+a:hover{
+    color: red;
+    transition-duration: .5s;
+    transform: scale(1.5,1.5);
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fab:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/* SECCION GRID IMAGENES*/
+.imagen{
+    width: auto;
+    height: 250px;
+    margin: 1px;
+}
+
+/* .imagen:hover{
+    transform: scale(1.5,1.5);
+} */
+
+.imagen:hover{
+    transition-duration: .5s;
+}
+
+
+.photo-grid-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.photo-grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* FIN PORTAFOLIO */
+
+
+/* SOBRE MI */
+
+.brianwinkelmann-sobremi{
+    top: 49px;
+    left: 6%;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    border-style: solid;
+    width:fit-content;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.brianwinkelmann-sobremi:hover{
+    color: black;
+    background-color: white;
+}
+
+.menunavegacion{
+    width: 35%;
+    position: relative;
+    left: 55%;
+    font-family: 'Raleway', sans-serif;
+    display:flex;
+    justify-content: space-between;
+}
+.menunavegacion:hover{
+cursor: pointer;
+
+}
+
+a:hover{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fab:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.imagenfondo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-sobremi{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%; 
+    height: 100%; 
+}
+
+
+.fondosobremi{
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    position: absolute;
+    margin-left: 60%;
+    top: 50%;
+    width: 30%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 10px;
+
+}
+
+
+/* FIN SOBRE MI */
+
+/* SECCION CONTACTO*/
+
+.body-contacto{
+    background-image: url('/Users/brianwinkelmann/Desktop/Pagina Brian/imagenes/nature_big_1.jpg');
+}
+
+
+.formulario{
+    margin-top: 50px;
+    width: 70%;
+    height: 500px;
+    background-color:grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.formulario-container{
+    margin-top: 10px;
+}
+
+div.form {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+/*mobile*/
+
+@media only screen and (max-width: 660px){
+
+    .menunavegacion{
+        display: none;
+    }
+    
+    .logo-container{
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brianwinkelmann{
+        font-size: 15px;
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+/*tablet*/
+@media only screen and (max-width: 1000px) {
+
+    a{
+        font-size: 15px;
+    }
+    .menunavegacion{
+        justify-content: safe;
+        width: 300px;
+        left: 45%;
+    }
+
+}

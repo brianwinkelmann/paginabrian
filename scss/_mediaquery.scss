@@ -1,0 +1,39 @@
+/*mobile*/
+
+@media only screen and (max-width: 660px){
+
+    .menunavegacion{
+        display: none;
+    }
+    
+    .logo-container{
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .brianwinkelmann{
+        font-size: 15px;
+        position: relative;
+        top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+/*tablet*/
+@media only screen and (max-width: 1000px) {
+
+    a{
+        font-size: 15px;
+    }
+    .menunavegacion{
+        justify-content: safe;
+        width: 300px;
+        left: 45%;
+    }
+
+}
